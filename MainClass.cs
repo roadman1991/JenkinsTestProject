@@ -32,7 +32,7 @@ namespace StartingPoint
 			custMickeyMouse.AddRental(rental1);
 			custMickeyMouse.AddRental(rental2);
 			custMickeyMouse.AddRental(rental3);
-
+            
 			// Generate invoice
 			string statement = custMickeyMouse.Statement();
 
